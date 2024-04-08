@@ -1,0 +1,606 @@
+/*start global attribute  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Saira:wght@700&display=swap');
+
+
+.fontSizeAndFontFamilyForTilte {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 38px;
+  font-weight: 600 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+h1,
+h2 {
+  font-family: 'Saira', sans-serif;
+}
+
+.primary-color {
+  color: #033b4a;
+}
+
+.secondary-color {
+  color: #20c997;
+}
+
+.gray {
+  color: #4a4a4d;
+
+}
+
+.lightGray {
+  color: #a8a9ad;
+}
+
+:root {
+  --priamry-color: #033b4a;
+  --secondary-color: #20c997;
+  --gray: #4a4a4d;
+  --bg-primary: #ecf0f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/*end global attribute  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start nav */
+nav .navbar-collapse ul li .active {
+  color: var(--secondary-color) !important;
+  transition: .5s all ease;
+}
+
+.logo {
+  font-size: 24px !important;
+  color: var(--priamry-color) !important;
+  font-weight: 600 !important;
+}
+
+nav {
+  border-bottom: 1px solid #ccc;
+  font-weight: 600;
+}
+
+nav ul li a {
+  color: var(--priamry-color) !important;
+  padding: 0 16px !important;
+
+}
+
+/* end nav */
+
+
+
+
+
+
+
+/* start home */
+.Home {
+  padding-top: 150px !important;
+  background-color: var(--bg-primary);
+  padding-bottom: 150px;
+}
+
+.sayHy {
+  color: var(--secondary-color) !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.myName {
+  color: var(--priamry-color);
+  font-size: 60px;
+
+  font-weight: 600;
+}
+
+header .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--priamry-color);
+}
+
+.socialIcons a {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: var(--gray);
+  color: white;
+}
+
+.socialIcons div {
+  transition: .3s ease all;
+}
+
+.socialIcons div:hover {
+  transform: scale(.85);
+
+}
+
+.aboutMe {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.aboutMe:hover {
+  background-color: #15a076;
+}
+
+.Home .HomeImage {
+  width: 100% !important;
+}
+
+/* end home */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start about */
+.underLine {
+  height: 3px;
+  width: 100px;
+  background-color: var(--secondary-color);
+}
+
+.about {
+  margin-top: 85px;
+  padding-bottom: 100px;
+}
+
+.paragraph {
+  line-height: 30px;
+}
+
+/* end about */
+
+
+
+
+
+
+/* start skills */
+
+
+.skills .skillsHeader {
+  width: 95%;
+  margin: auto;
+
+  
+}
+
+.cartHeight {
+  height: 100%;
+}
+
+.cartFontSize {
+  font-size: 20px;
+}
+
+.skills {
+  padding-bottom: 100px;
+  background-color: var(--priamry-color);
+  padding-top: 80px !important;
+}
+
+.carts {
+  background-color: #0f272d;
+}
+
+.carts>div{
+  cursor: pointer;
+}
+.cartHover {
+  transition: all 0.3s ease;
+}
+
+.cartHover:hover {
+  box-shadow: 10px 10px 10px #00f4ab0c;
+}
+
+.myEducation {
+  background-color: #edfef9;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.HTI {
+  width: 20%;
+}
+
+.study {
+  color: #236c02;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* end skills */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start portfolio */
+.navAndTab ul li button {
+  color: white !important;
+  background-color: var(--gray);
+  font-size: 14px !important;
+  margin-right: 10px;
+  border-radius: 20px !important;
+
+}
+
+.portfolio .nav-pills .active {
+  background-color: var(--secondary-color);
+}
+
+.layer {
+  background-color: rgba(0 0 0 /70%);
+  opacity: 0;
+  transition: .3s all ease;
+}
+
+.layer:hover {
+  opacity: 1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.portfolio {
+  background-color: var(--priamry-color);
+  padding-bottom: 80px;
+}
+
+.btnShowMore {
+  background-color: var(--secondary-color) !important;
+  border: none;
+  padding: 10px;
+  color: white;
+  padding: 8px 25px;
+  font-size: 14px;
+}
+
+.btnHide,
+.btnShowMore {
+  transition: .3s ease all;
+}
+
+.btnHide,
+.btnShowMore:hover {
+  transform: scale(.88);
+}
+
+/* end portfolio */
+
+
+
+
+
+
+
+
+
+
+
+
+/* start contact */
+.contact {
+  background-color: #edfef9;
+}
+
+.contact textarea {
+  resize: none;
+}
+
+.contact form input[type=text],
+input[type=email],
+textArea {
+  background-color: #edfef9 !important;
+}
+.contact form input:focus,textarea:focus{
+  box-shadow: 0 0 5px 2px rgba(32, 201, 151, 0.3 ) !important;
+  border: solid 1px #dee2e6 !important;
+
+}
+
+.btnSubmit {
+  font-family: 'Saira', sans-serif !important;
+  background-color: var(--secondary-color) !important;
+  border: none;
+  padding: 10px;
+  color: white;
+  padding: 8px 25px;
+  font-size: 14px;
+  transition: .3s ease all;
+}
+
+.btnSubmit:hover {
+  opacity: .8;
+}
+
+/* end contact */
+
+
+
+
+
+
+
+
+
+
+
+/* start footer */
+footer {
+  background-color: #222222;
+}
+
+footer h2 {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 25px;
+
+}
+
+.FooterNav {
+  transition: .3s ease all;
+}
+
+.FooterNav:hover {
+  color: var(--secondary-color) !important;
+}
+
+.phone {
+  border-left: solid 3px var(--secondary-color);
+}
+
+.fa-whatsapp {
+  color: var(--secondary-color);
+}
+
+.madedWith {
+  background-color: #1b1b1b;
+}
+
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+/* <=============================> */
+.btnUp {
+  background-color: rgba(0 0 0 /30%);
+  padding: 8px 13px;
+  position: absolute;
+  bottom: 3%;
+  right: 1%;
+  transition: .3s ease all;
+  z-index: 99999999 !important;
+}
+
+.btnUp:hover {
+  background-color: rgba(0 0 0 /60%);
+}
+
+.navigation {
+  background-color: #fff;
+
+}
+
+.bg-white {
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+
+.bg-gray {
+  background-color: #ecf0f3;
+  transition: background-color 0.5s ease;
+}
+
+.madeWith {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+/* <=============================> */
+
+
+
+
+
+
+/* start media */
+@media (max-width:1090px) {
+  .myName {
+    font-size: 50px !important;
+  }
+}
+
+@media(max-width:994px) {
+  .rowHeader {
+    flex-direction: column-reverse;
+  }
+
+  .col1 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width:992px) {
+  .Home .HomeImage {
+    width: 70% !important;
+    margin-top: 50px;
+  }
+
+  .navbar {
+    padding: 15px 0 !important;
+  }
+
+  nav ul li a {
+    margin: 10px 0 !important;
+  }
+
+  nav .container {
+    width: 100% !important;
+  }
+
+  .logo {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width:835px) {
+  .myEducation .myEducationCart {
+    display: block !important;
+    text-align: center;
+  }
+
+  .myEducationCart>img {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .myEducation .cartContent {
+    margin: 0 !important;
+  }
+}
+
+
+@media (max-width:820px) {
+  .Home .HomeImage {
+    width: 90% !important;
+  }
+}
+
+@media (max-width:768px) {
+  .navAndTab .nav-pills li button {
+    font-size: 13px !important;
+    margin-right: 3px;
+  }
+
+
+}
+
+@media (max-width:700px) {
+  .myName {
+    font-size: 45px !important;
+  }
+}
+
+@media (max-width:495px) {
+
+  .Home .container,
+  .about .container .aboutSction {
+    width: 100% !important;
+  }
+
+  .skills .container {
+    width: 95% !important;
+  }
+
+  .myEducation .myEducationCart {
+    width: 95% !important;
+  }
+
+  .portfolio .container {
+    width: 95% !important;
+  }
+
+  .contact .container {
+    width: 95% !important;
+  }
+
+  footer .container {
+    width: 95% !important;
+  }
+
+  .about .aboutSction .paragraph {
+    margin-bottom: 40px !important;
+    margin-top: 25px !important;
+  }
+
+  .fontSizeAndFontFamilyForTilte {
+    font-size: 34px !important;
+  }
+
+  .myEducation .myEducationHeader {
+    width: 95% !important;
+  }
+
+  .about {
+    padding-top: 7px !important;
+  }
+
+}
+
+/* end media */
